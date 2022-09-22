@@ -8,7 +8,8 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-td_apikey.txt
+.idea/**/*.xml
+../**/.idea/*.xml
 
 # File-based project format
 *.iws
