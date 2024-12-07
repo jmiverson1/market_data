@@ -98,7 +98,7 @@ def add_peak_trough_trend(px_hist: pd.DataFrame) -> pd.DataFrame:
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    si = get_px_history('^VIX', '1y')
+    si = get_px_history('SI', '1mo')
     si = add_peak_trough_trend(si)
     si.loc[:, ['Close', 'trough', 'peak']].plot.line()
 
